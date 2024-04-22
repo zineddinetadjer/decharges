@@ -1,0 +1,35 @@
+.autres{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+height: 100%;
+}
+.autres h1{
+    text-align: center;
+}
+.form{ 
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 10em;
+    width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    border-radius: 5%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.form input{
+    width: 25em;
+    height: 4em;
+    border-radius: 1em;
+}
+.form button{
+    width: 25em;
+    height: 4em;
+    border-radius: 1em;
+}
+

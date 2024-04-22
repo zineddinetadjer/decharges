@@ -1,0 +1,22 @@
+.navbar{
+    background-color: black;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    gap: 30em;
+    border-radius: 0 0 2em 2em;
+}
+.navbar img{
+    margin-left: 3em;
+    height: 5em;
+}
+.links{
+    margin-left: 25em;
+    display: flex;
+    gap: 4em;
+}
+.links h2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
